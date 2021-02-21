@@ -1,3 +1,5 @@
+@import "../../assets/styles/color.module.scss";
+
 .container-rightbar{
 
     width: 100%;
@@ -20,7 +22,7 @@
                 margin: 20px 5px 20px 10px;
                 
                 a{
-                    color: black;   
+                    color:  $black-color;   
                 }
             }
         }
@@ -33,11 +35,11 @@
             height: 17vh;
             border-radius: 12px;
             margin: 20px auto;
-            background-color: #1f99cc;
+            background-color: $blue-color;
 
             text-align: center;
             padding-top: 30px;
-            color: blanchedalmond;
+            color: $white-color;
             line-height: 30px;
 
             h1{

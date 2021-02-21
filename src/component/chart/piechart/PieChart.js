@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, {  useState } from "react"
 import { Pie } from 'react-chartjs-2';
 const PieChart = (props) => {
 
@@ -12,7 +12,7 @@ const PieChart = (props) => {
     let sembuhs = sembuh.replace(",","")
     let sembuhr = sembuhs.replace(",","")
 
-    const [barData, setBarData] = useState({
+    const [barData, ] = useState({
         labels: [ 'Positif', 'meninggal', 'sembuh'],
         datasets: [
 

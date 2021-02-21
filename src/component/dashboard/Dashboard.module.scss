@@ -1,4 +1,4 @@
-
+@import "../../assets/styles/color.module.scss";
 
 .continer-dashboard{
 
@@ -10,7 +10,7 @@
         width: 250px;
         height: 35px;
         border-radius: 8px;
-        background-color: #f2f2f2;
+        background-color: $search-color;
         
         .input-dashboard{
             float: right;
@@ -18,7 +18,7 @@
             height: 35px;
             outline: none;
             border:none;
-            background-color: #f2f2f2;
+            background-color: $search-color;
             border-radius: 8px;
             ::placeholder {
                 font-size: 9px;
@@ -61,8 +61,8 @@
                 border-radius: 10px;
                 border: none;
                 outline: none;
-                background-color: #1f99cc;
-                color: #ffffff;
+                background-color: $blue-color ;
+                color: $white-color;
                 cursor: pointer;
                 margin-top: 5vh;
             }

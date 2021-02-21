@@ -13,10 +13,10 @@ const BarChart = (props) => {
     let sembuhs = sembuh.replace(",","")
     let sembuhr = sembuhs.replace(",","")
 
-    const [data, setData] = useContext(DataContext)
+    const [data, ] = useContext(DataContext)
     console.log(data)
 
-    const [barData, setBarData] = useState({
+    const [barData, ] = useState({
         labels: [ 'Positif', 'meninggal', 'sembuh'],
         datasets: [
 
