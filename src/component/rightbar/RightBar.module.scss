@@ -1,0 +1,90 @@
+.container-rightbar{
+
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    .layoutRightbar{
+        flex-basis: 100%;
+    }
+
+    .navRightbar{
+        flex-basis: 15%;
+        
+        ul{
+            padding: 0 10px;
+            display: flex;
+            li{
+                margin: 20px 5px 20px 10px;
+                
+                a{
+                    color: black;   
+                }
+            }
+        }
+    }
+    .bannerRightbar{
+        flex-basis: 40%;
+
+        .heroRightbar{
+            width: 80%;
+            height: 17vh;
+            border-radius: 12px;
+            margin: 20px auto;
+            background-color: #1f99cc;
+
+            text-align: center;
+            padding-top: 30px;
+            color: blanchedalmond;
+            line-height: 30px;
+
+            h1{
+                font-size: 40px;
+            }
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+
+    .tittleRightbar{
+        flex-basis: 10%;
+        font-size: 0.6em;
+        padding: 20px;
+    }
+
+    .contentInstructor{
+        overflow-y: auto;
+
+        .cardInstructor{
+            width: 80%;
+            height: 10vh;
+            margin: 20px auto;
+
+            display: flex;
+
+            .detailInstructor{
+                flex-basis: 100%;
+
+                p{
+                    padding: 15px 5px 10px 10px;
+                    font-size: 15px;
+                    line-height: 12px;
+                }
+                span{
+                    font-size: 12px;
+                }
+            }
+
+            .photoInstructor{
+                flex-basis: 40%;
+
+                background-image: url("../../assets/img/avatar.png");
+                background-size: cover;
+            }
+        }
+    }
+
+}
