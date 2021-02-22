@@ -2,20 +2,22 @@
 
 .navbar{
     width: 100%;
-    height: 100vh;
     padding-left: 40px;
     box-shadow: 5px 0 5px -5px #333;
-
+    padding-bottom: 2px;
     .logo{
-        max-width: 20vh;
+        width: 20vh;
         margin: 30px;
     }
 
     .gambar-1{
-        max-width: 80%;
+        width: 80%;
         margin: 10px 20px 25px 20px;
     }
 
+    .contentnavbar{
+        display: block;
+    }
     ul{
         li{
             margin: 20px 35px ;
@@ -27,13 +29,13 @@
     }
 
     .card-cs{
-        margin: 120px 20px;
+        margin: 150px 20px;
         width: 67%;
         height: 33vh;
         border-radius: 20px;
         box-shadow: 0 0 5px #333;
         padding: 10px 20px  ;
-
+        background-color: #ffffff;
         p{
             font-size: 0.9em;
             text-align: center;
@@ -59,3 +61,85 @@
     }
 
 }
+
+
+
+
+@media screen and (max-width: 360px) {
+
+    .navbar{
+        width: 100%;
+        padding-left: 0px;
+        box-shadow: 5px 0 5px -5px #333;
+        
+        .logo{
+            width: 180px;
+            margin: 30px;
+        }
+    
+        .gambar-1{
+            width: 80%;
+            margin: 10px 20px 25px 20px;
+        }
+    
+        .contentnavbar{
+            background-color: $blue-color;
+            padding: 20px 0;
+            ul{
+                li{
+                    margin: 20px 35px ;
+                }
+                a{
+                    color: #ffffff;
+                    font-size: 1.1em;
+                }
+            }
+        
+            .card-cs{
+                margin: 60px 50px;
+                width: 67%;
+                min-height: 43vh;
+                border-radius: 20px;
+                box-shadow: 0 0 5px #333;
+                padding: 10px 20px  ;
+                background-color: #ffffff;
+                p{
+                    font-size: 0.9em;
+                    text-align: center;
+                    line-height: 15px;
+                    color: $black-color;
+                    font-weight:600;
+                }
+        
+                .tombol-cs{
+                    width: 100%;
+                    // margin: 15px 20px;
+                    margin: 20px 0;
+                    outline: none  ;
+                    background-color: $blue-color;
+                    border: 1px solid #aaa;
+                    border-radius: 10px;
+                    padding: 5px;
+                    cursor: pointer;
+                    color: #ffffff;
+                    font-weight: 600;
+                    letter-spacing: 2px;
+                }
+            }
+
+
+        }
+
+    
+    }
+    .burger-menu{
+        display: none;
+    }
+
+  }
+
+  @media screen and (min-width: 360px){
+    .burger-menu{
+        display: none;
+    }
+  }

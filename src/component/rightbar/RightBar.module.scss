@@ -3,13 +3,14 @@
 .container-rightbar{
 
     width: 100%;
-    height: 100vh;
+    height: 120vh;
 
     display: flex;
     flex-direction: column;
 
     .layoutRightbar{
         flex-basis: 100%;
+
     }
 
     .navRightbar{
@@ -31,6 +32,7 @@
         flex-basis: 40%;
 
         .heroRightbar{
+
             width: 80%;
             height: 17vh;
             border-radius: 12px;
@@ -56,9 +58,19 @@
         font-size: 0.6em;
         padding: 20px;
     }
+    .contentInstructor::-webkit-scrollbar{
+        display: none;
+    }
 
+    .contentInstructor:hover {
+        ::-webkit-scrollbar{
+            display: block;
+        }
+    }
     .contentInstructor{
         overflow-y: auto;
+
+        
 
         .cardInstructor{
             width: 80%;

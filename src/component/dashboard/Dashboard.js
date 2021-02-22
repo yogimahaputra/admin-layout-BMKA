@@ -55,13 +55,13 @@ const Dashboard = () => {
                 <div className={s["menu-dashboard"]}>
                     <div className={`${s.layoutmenu} ${s.navmenu}`}>
                         <ul>
-                            <li><Link to="/">Content1</Link></li>
-                            <li><Link to="/content2">Content2</Link></li>
-                            <li><Link to="/content3">Content3</Link></li>
+                            <li><Link to="/"><p>Content1</p></Link></li>
+                            <li><Link to="/content2"><p>Content2</p></Link></li>
+                            <li><Link to="/content3"><p>Content3</p></Link></li>
                         </ul>
                     </div>
                     <div className={`${s.layoutmenu} ${s.centermenu}`}>
-                        <div className={`${s.layoutcontent}`}>
+                        <div className={`${s.layoutcontent} ${s.kiri}`}>
                             <Switch>
                                 <Route exact path="/">
                                     {data !== null && (
@@ -110,6 +110,7 @@ const Dashboard = () => {
 
                             </Switch>
                         </div>
+
                         <div className={`${s.layoutcontent} ${s.listcontent}`}>
                             <div className={`${s.contentbar}`}>
                                 <div className={`${s.detailcontent}`}>
@@ -156,6 +157,7 @@ const Dashboard = () => {
                                 </div>
                             </div>
                         </div>
+
                     </div>
                 </div>
                 </Router>

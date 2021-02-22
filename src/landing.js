@@ -11,7 +11,7 @@ const Landing = () => {
                 <div className={`${s.layout} ${s.sidebar}`}>
                     <Navbar/>
                 </div>
-                <div className={`${s.layout}`}>
+                <div className={`${s.layout} ${s.centerLayout}`}>
                     <Dashboard/>
                 </div>
                 <div className={`${s.layout} ${s.rightbar}`}>
