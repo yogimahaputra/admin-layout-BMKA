@@ -1,4 +1,4 @@
-import React, { useState } from "react"
+import React from "react"
 import { BarChartOutlined, ShoppingFilled, SolutionOutlined, SettingFilled } from '@ant-design/icons';
 import style from "./Navbar.module.scss"
 import logo from "../../assets/img/bmka.jpg"

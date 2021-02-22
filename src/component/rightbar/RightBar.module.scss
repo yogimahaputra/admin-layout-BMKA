@@ -1,10 +1,10 @@
 @import "../../assets/styles/color.module.scss";
+@import "./responsive/430px/430px.module.scss";
 
 .container-rightbar{
 
     width: 100%;
     height: 120vh;
-
     display: flex;
     flex-direction: column;
 
